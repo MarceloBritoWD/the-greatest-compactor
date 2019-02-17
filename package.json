@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/MarceloBritoWD/the-greatest-compactor/issues"
   },
-  "homepage": "https://github.com/MarceloBritoWD/the-greatest-compactor#readme"
+  "homepage": "https://github.com/MarceloBritoWD/the-greatest-compactor#readme",
+  "dependencies": {
+    "archiver": "^3.0.0",
+    "extract-zip": "^1.6.7"
+  }
 }
