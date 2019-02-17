@@ -1,0 +1,19 @@
+{
+  "name": "the-greatest-compactor",
+  "version": "1.0.0",
+  "description": "The greatest compactor of this world",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarceloBritoWD/the-greatest-compactor.git"
+  },
+  "author": "Marcelo Brito",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarceloBritoWD/the-greatest-compactor/issues"
+  },
+  "homepage": "https://github.com/MarceloBritoWD/the-greatest-compactor#readme"
+}
