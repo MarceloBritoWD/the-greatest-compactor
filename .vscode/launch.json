@@ -10,6 +10,7 @@
             "name": "Launch Program",
             "program": "${workspaceFolder}/index.js",
             "args": ["compacta", "./folderToCompact", "zoutput.zip"]
+            // "args": ["descompacta",  "./zoutput.zip", "./extracted/"]
         }
     ]
 }
