@@ -13,15 +13,14 @@ if (utils.isCompactProcess() ) {
     let compactor = archiver(zipFileNameToCreate.split('.')[1]);
     
     output.on('close', () => {
-        console.log(compactor.pointer() + ' bytes totais!')
+        console.info(`Finalizado, ${compactor.pointer()} bytes compactados!`);
     })
     
     compactor.pipe(output);
     compactor.glob(folderToCompact + '/*');
     compactor.finalize();
-}
-
-if (utils.isUncompactProcess()) {
+    
+} else {
     const zipFileNameToUncompact = process.argv[3];
     const destinyOfFile = process.argv[4];
 
