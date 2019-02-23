@@ -20,7 +20,7 @@ if (utils.isCompactProcess() ) {
     compactor.glob(folderToCompact + '/*');
     compactor.finalize();
     
-} else {
+} else if(utils.isUncompactProcess()) {
     const zipFileNameToUncompact = process.argv[3];
     const destinyOfFile = process.argv[4];
 
